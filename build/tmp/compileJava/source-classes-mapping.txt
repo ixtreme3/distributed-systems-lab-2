@@ -7,12 +7,12 @@ StaxStreamHandler.java
  StaxStreamHandler
 database/DBUtil.java
  database.DBUtil
-Main.java
- Main
+service/NodeService.java
+ service.NodeService
 OsmProcessor.java
  OsmProcessor
-Unpacker.java
- Unpacker
+entity/NodeEntity.java
+ entity.NodeEntity
 dao/impl/NodeDaoImpl.java
  dao.impl.NodeDaoImpl
 dao/TagDao.java
@@ -23,7 +23,5 @@ dao/impl/TagDaoImpl.java
  dao.impl.TagDaoImpl
 generated/ObjectFactory.java
  generated.ObjectFactory
-entity/NodeEntity.java
- entity.NodeEntity
-service/NodeService.java
- service.NodeService
+Main.java
+ Main

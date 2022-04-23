@@ -1,159 +1,32 @@
-2022-04-21 08:56:02,034 INFO Main [main] start
-2022-04-21 08:56:02,081 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 08:56:02,565 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 08:56:02,612 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.016s)
-2022-04-21 08:56:02,628 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 08:56:02,706 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 08:56:02,706 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 08:56:02,721 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "tags" не существует, пропускается
-2022-04-21 08:56:02,721 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "nodes" не существует, пропускается
-2022-04-21 08:56:02,737 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.044s)
-2022-04-21 08:56:41,285 INFO Main [main] start
-2022-04-21 08:56:41,347 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 08:56:41,800 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 08:56:41,832 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.015s)
-2022-04-21 08:56:41,847 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 08:56:41,879 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 08:56:41,894 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 08:56:41,894 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "tags" не существует, пропускается
-2022-04-21 08:56:41,894 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "nodes" не существует, пропускается
-2022-04-21 08:56:41,910 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.035s)
-2022-04-21 09:54:03,353 INFO Main [main] start
-2022-04-21 09:54:03,498 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 09:54:04,452 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 09:54:04,615 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.087s)
-2022-04-21 09:54:04,639 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": 1
-2022-04-21 09:54:04,642 INFO o.f.c.i.c.DbMigrate [main] Schema "public" is up to date. No migration necessary.
-2022-04-21 09:55:34,790 INFO Main [main] start
-2022-04-21 09:55:34,885 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 09:55:35,543 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 09:55:35,585 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.018s)
-2022-04-21 09:55:35,606 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 09:55:35,673 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 09:55:35,681 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 09:55:35,691 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "tags" не существует, пропускается
-2022-04-21 09:55:35,692 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "nodes" не существует, пропускается
-2022-04-21 09:55:35,719 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.053s)
-2022-04-21 09:55:39,157 INFO Main [main] finish
-2022-04-21 11:13:17,266 INFO Main [main] start
-2022-04-21 11:13:17,417 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 11:13:18,641 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 11:13:18,863 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.120s)
-2022-04-21 11:13:18,904 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": 1
-2022-04-21 11:13:18,907 INFO o.f.c.i.c.DbMigrate [main] Schema "public" is up to date. No migration necessary.
-2022-04-21 11:14:05,705 INFO Main [main] start
-2022-04-21 11:14:05,901 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 11:14:06,838 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 11:14:06,894 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.020s)
-2022-04-21 11:14:06,912 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 11:14:07,025 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 11:14:07,048 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 11:14:07,074 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "tags" не существует, пропускается
-2022-04-21 11:14:07,076 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "nodes" не существует, пропускается
-2022-04-21 11:14:07,141 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.130s)
-2022-04-21 11:14:10,194 INFO Main [main] finish
-2022-04-21 12:01:22,436 INFO Main [main] start
-2022-04-21 12:01:22,640 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:01:23,249 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:01:23,304 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.023s)
-2022-04-21 12:01:23,326 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 12:01:23,371 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 12:01:23,380 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 12:01:23,392 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "tags" не существует, пропускается
-2022-04-21 12:01:23,392 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "nodes" не существует, пропускается
-2022-04-21 12:01:23,420 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.055s)
-2022-04-21 12:02:10,532 INFO Main [main] start
-2022-04-21 12:02:10,683 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:02:11,907 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:02:11,981 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.039s)
-2022-04-21 12:02:12,001 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": 1
-2022-04-21 12:02:12,002 INFO o.f.c.i.c.DbMigrate [main] Schema "public" is up to date. No migration necessary.
-2022-04-21 12:07:06,543 INFO Main [main] start
-2022-04-21 12:07:06,606 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:07:07,059 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:07:07,090 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.014s)
-2022-04-21 12:07:07,106 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 12:07:07,147 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 12:07:07,151 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 12:07:07,160 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "tags" не существует, пропускается
-2022-04-21 12:07:07,160 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "nodes" не существует, пропускается
-2022-04-21 12:07:07,164 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.035s)
-2022-04-21 12:07:08,353 INFO Main [main] finish
-2022-04-21 12:39:03,489 INFO Main [main] start
-2022-04-21 12:39:03,652 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:39:04,204 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:39:04,252 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.019s)
-2022-04-21 12:39:04,271 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 12:39:04,312 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 12:39:04,320 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 12:39:04,330 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "tags" не существует, пропускается
-2022-04-21 12:39:04,332 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: таблица "nodes" не существует, пропускается
-2022-04-21 12:39:04,360 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.054s)
-2022-04-21 12:40:32,171 INFO Main [main] start
-2022-04-21 12:40:32,373 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:40:33,943 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:40:34,066 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.052s)
-2022-04-21 12:40:34,082 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": 1
-2022-04-21 12:40:34,083 INFO o.f.c.i.c.DbMigrate [main] Schema "public" is up to date. No migration necessary.
-2022-04-21 12:41:10,479 INFO Main [main] start
-2022-04-21 12:41:10,596 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:41:11,183 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:41:11,235 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.019s)
-2022-04-21 12:41:11,252 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 12:41:11,291 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 12:41:11,306 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 12:41:11,316 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "tags" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
-2022-04-21 12:41:11,317 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "nodes" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
-2022-04-21 12:41:11,341 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.056s)
-2022-04-21 12:41:50,185 INFO Main [main] finish
-2022-04-21 12:42:44,038 INFO Main [main] start
-2022-04-21 12:42:44,178 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:42:44,946 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:42:45,009 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.027s)
-2022-04-21 12:42:45,020 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": 1
-2022-04-21 12:42:45,020 INFO o.f.c.i.c.DbMigrate [main] Schema "public" is up to date. No migration necessary.
-2022-04-21 12:43:44,775 INFO Main [main] start
-2022-04-21 12:43:44,850 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:43:45,353 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:43:45,414 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.020s)
-2022-04-21 12:43:45,431 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 12:43:45,468 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 12:43:45,478 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 12:43:45,488 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "tags" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
-2022-04-21 12:43:45,489 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "nodes" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
-2022-04-21 12:43:45,511 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.048s)
-2022-04-21 12:44:23,051 INFO Main [main] finish
-2022-04-21 12:50:57,645 INFO Main [main] start
-2022-04-21 12:50:57,750 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:50:58,569 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:50:58,625 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.022s)
-2022-04-21 12:50:58,634 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": 1
-2022-04-21 12:50:58,635 INFO o.f.c.i.c.DbMigrate [main] Schema "public" is up to date. No migration necessary.
-2022-04-21 12:51:17,502 INFO Main [main] start
-2022-04-21 12:51:17,588 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:51:18,179 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:51:18,233 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.021s)
-2022-04-21 12:51:18,254 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 12:51:18,296 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 12:51:18,303 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 12:51:18,312 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "tags" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
-2022-04-21 12:51:18,313 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "nodes" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
-2022-04-21 12:51:18,339 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.049s)
-2022-04-21 12:51:52,643 INFO Main [main] finish
-2022-04-21 12:52:06,139 INFO Main [main] start
-2022-04-21 12:52:06,297 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:52:07,080 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:52:07,146 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.027s)
-2022-04-21 12:52:07,156 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": 1
-2022-04-21 12:52:07,157 INFO o.f.c.i.c.DbMigrate [main] Schema "public" is up to date. No migration necessary.
-2022-04-21 12:52:25,870 INFO Main [main] start
-2022-04-21 12:52:26,132 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
-2022-04-21 12:52:27,241 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
-2022-04-21 12:52:27,322 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.031s)
-2022-04-21 12:52:27,348 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
-2022-04-21 12:52:27,403 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
-2022-04-21 12:52:27,416 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
-2022-04-21 12:52:27,430 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "tags" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
-2022-04-21 12:52:27,431 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "nodes" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
-2022-04-21 12:52:27,463 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.067s)
-2022-04-21 12:52:40,001 INFO Main [main] finish
+2022-04-23 22:41:35,279 INFO Main [main] start
+2022-04-23 22:41:35,427 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
+2022-04-23 22:41:36,195 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
+2022-04-23 22:41:36,255 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.029s)
+2022-04-23 22:41:36,276 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
+2022-04-23 22:41:36,344 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
+2022-04-23 22:41:36,354 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
+2022-04-23 22:41:36,366 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "tags" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
+2022-04-23 22:41:36,367 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "nodes" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
+2022-04-23 22:41:36,402 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.065s)
+2022-04-23 22:42:31,352 INFO Main [main] start
+2022-04-23 22:42:31,405 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
+2022-04-23 22:42:31,823 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
+2022-04-23 22:42:31,863 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.016s)
+2022-04-23 22:42:31,876 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
+2022-04-23 22:42:31,905 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
+2022-04-23 22:42:31,910 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
+2022-04-23 22:42:31,917 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "tags" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
+2022-04-23 22:42:31,917 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "nodes" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
+2022-04-23 22:42:31,936 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.035s)
+2022-04-23 22:42:42,796 INFO Main [main] finish
+2022-04-23 22:43:50,017 INFO Main [main] start
+2022-04-23 22:43:50,082 INFO o.f.c.i.l.VersionPrinter [main] Flyway Community Edition 7.5.3 by Redgate
+2022-04-23 22:43:50,509 INFO o.f.c.i.d.b.DatabaseType [main] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.3)
+2022-04-23 22:43:50,552 INFO o.f.c.i.c.DbValidate [main] Successfully validated 1 migration (execution time 00:00.017s)
+2022-04-23 22:43:50,566 INFO o.f.c.i.s.JdbcTableSchemaHistory [main] Creating Schema History table "public"."flyway_schema_history" ...
+2022-04-23 22:43:50,603 INFO o.f.c.i.c.DbMigrate [main] Current version of schema "public": << Empty Schema >>
+2022-04-23 22:43:50,610 INFO o.f.c.i.c.DbMigrate [main] Migrating schema "public" to version "1 - init schema"
+2022-04-23 22:43:50,619 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "tags" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
+2022-04-23 22:43:50,619 INFO o.f.c.i.s.DefaultSqlScriptExecutor [main] DB: С‚Р°Р±Р»РёС†Р° "nodes" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚, РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ
+2022-04-23 22:43:50,643 INFO o.f.c.i.c.DbMigrate [main] Successfully applied 1 migration to schema "public" (execution time 00:00.045s)
+2022-04-23 22:44:01,771 INFO Main [main] finish
